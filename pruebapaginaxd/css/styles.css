@@ -1,0 +1,173 @@
+
+
+ body {
+   margin: 0;
+   padding: 0;
+ background-color: rgb(0, 0, 0);
+ height: 100%;
+    
+}
+
+
+
+
+
+.player .info {
+    
+    top: 0;
+    opacity: 0;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(92, 92, 92, 0.308);
+    padding: 5px 15px 5px 110px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.player .info .artist,
+.player .info .name {
+    display: block;
+}
+
+.player .info .artist {
+    color: rgba(34, 34, 34, 0.5);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.player .info .name {
+    color: rgba(153, 153, 153, 0.445);
+    font-size: 12px;
+    margin-bottom: 8px;
+    
+}
+
+.player .info .progress-bar {
+    background-color: rgba(221, 221, 221, 0.473);
+    height: 2px;
+    
+    position: relative;
+}
+
+.player .info .progress-bar .bar {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1eadff86;
+    width: 10%;
+    transition: all 0.2s ease;
+}
+
+.player .info.active {
+    top: -60px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    
+}
+
+.player .control-panel {
+    
+    
+    
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    z-index: 5;
+    box-shadow: 0 20px 20px 5px rgba(255, 255, 255, 0.329);
+}
+
+.player .control-panel .album-art {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+img {
+    
+    width: 20vh;
+    height: 10%;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.player .control-panel .album-art::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+
+.player .control-panel.active .album-art {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0).2;
+    transform: scale(1.2);
+    transition: all o.5s ease;
+}
+
+.player .control-panel .controls {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    
+    
+}
+
+.player .control-panel .controls .prev,
+.player .control-panel .controls .play,
+.player .control-panel .controls .next {
+    display: flex;
+    justify-content: center;
+    width: 70vh;
+    height: auto;
+    justify-content: flex-end;
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.438);
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+.player .control-panel .controls .prev:hover,
+.player .control-panel .controls .play:hover,
+.player .control-panel .controls .next:hover {
+    background-color: rgba(180, 180, 180, );
+    transition: background-color 0.3s ease;
+}
+
+.player .control-panel .controls .prev {
+    background-image: url(../img/back.svg);
+}
+
+.player .control-panel .controls .play {
+    background-image: url(../img/play.svg);
+}
+
+.player .control-panel .controls .next {
+    background-image: url(../img/next.svg);
+}
+
+.player .control-panel.active .controls .play {
+    background-image: url(../img/stop.svg);
+}
+
+
+

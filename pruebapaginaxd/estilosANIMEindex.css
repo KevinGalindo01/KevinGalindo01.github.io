@@ -1,0 +1,159 @@
+body{
+    background-image: url("https://fondosmil.com/fondo/6645.jpg");
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    height: 85px;
+    background-color: rgba(128, 128, 128, 0.596);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+}
+.logo{
+display : flex ;
+align-items: center;
+    
+}
+.logo img{
+height: 50px;
+margin-right: 20px;
+}
+nav a{
+    font-weight: 700;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.678);
+}
+nav a:hover{
+    color: #808080;
+}
+
+.nombre-pagina{
+    color: rgb(0, 0, 0);
+}
+.saco-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.saco-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
+.camisas-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.camisas-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
+.pantalones-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.pantalones-darck:hover{
+ 
+    background-image: url("https://i.linio.com/p/0f43d650382dae45ead11ff33c343089-product.jpg");
+    background-size: cover;
+}
+.tenis-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.479);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.tenis-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
+.gorras-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.gorras-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
+.manillas-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.manillas-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
+.anillos-darck{
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 20px auto;
+    padding: 80px;
+    border: none;
+    width: 200px;
+    color: rgb(238, 238, 238);
+    border-radius: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+}
+.anillos-darck:hover{
+ 
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_991188-MCO31005508818_062019-O.jpg");
+    background-size: cover;
+}
